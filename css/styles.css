@@ -1,0 +1,263 @@
+:root {
+  --main-font: Roboto, sans-serif;
+  --secondary-font: Raleway, sans-sefir;
+
+  /* --text-color */
+  --accent-color: #2196f3;
+  --main-text-color: #757575;
+  --secondary-text-color: #212121;
+
+  /* --background-color */
+  --main-background-color: #ffffff;
+  --secondary-background-color: #f5f4fa;
+  --dark-background-color: #2f303a;
+}
+
+body {
+  font-family: var(--main-font);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+
+  color: var(--main-text-color);
+}
+
+.link {
+  text-decoration: none;
+  color: currentColor;
+}
+
+.button {
+  font-family: inherit;
+  color: currentColor;
+}
+.navigation-list,
+.header-group,
+.about-list,
+.lessons-list,
+.team-list,
+.filters-list,
+.projects-list,
+.footer-group {
+  list-style-type: none;
+}
+
+/*
+==============================
+| Header-section 
+==============================
+*/
+.header {
+  background-color: var(--main-background-color);
+}
+
+.navigation-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: var(--secondary-text-color);
+}
+
+.navigation-link:hover,
+.navigation-link:focus {
+  color: var(--accent-color);
+}
+
+.logo {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+
+  color: #212121;
+}
+
+.accent-logo {
+  color: var(--accent-color);
+}
+
+.header-mail,
+.header-phone {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: var(--main-text-color);
+}
+
+.header-mail:hover,
+.header-mail:focus,
+.header-phone:hover,
+.header-phone:focus {
+  color: var(--accent-color);
+}
+
+/*
+==============================
+| Меню-section
+==============================
+*/
+.hero-section {
+  background-color: var(--dark-background-color);
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: var(--main-background-color);
+}
+
+.hero-button {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+  border: none;
+  color: var(--main-background-color);
+  background-color: var(--accent-color);
+}
+
+.button {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  border: none;
+
+  color: #212121;
+  background-color: #f5f4fa;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #2196f3;
+}
+
+/*
+==============================
+| Особенности-section
+==============================
+*/
+.about-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--secondary-text-color);
+}
+/*
+==============================
+| Чем мы занимаемся-section
+==============================
+*/
+.lessons-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+/*
+==============================
+| Наша команда-section
+==============================
+*/
+.team {
+  background-color: #f5f4fa;
+}
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+.team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+
+.team-position {
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+/*
+==============================
+| Подвал-section
+==============================
+*/
+.footer {
+  background-color: #2f303a;
+}
+
+.logo-footer {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.footer-addres {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.footer-mail,
+.footer-phone {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/*
+==============================
+| Filters-section
+==============================
+*/
+
+/*
+==============================
+| Projects-section
+==============================
+*/
+.project-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--secondary-text-color);
+}
+
+.projects-position {
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
