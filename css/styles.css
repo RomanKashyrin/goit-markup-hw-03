@@ -83,7 +83,7 @@ section {
 
 .header {
   background-color: var(--main-background-color);
-  border: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
 }
 
 .header-container {
@@ -176,8 +176,8 @@ section {
 */
 
 .hero-section {
-  /* padding-top: 94px;
-  padding-bottom: 94px; */
+  padding-top: 200px;
+  padding-bottom: 200px;
 
   background-color: var(--dark-background-color);
 }
@@ -252,7 +252,7 @@ section {
 }
 
 .about-item:last-child {
-  margin-right: o;
+  margin-right: 0;
 }
 
 .about-title {
@@ -276,10 +276,6 @@ section {
   padding-top: 0;
 }
 
-.lessons-title {
-  margin-bottom: 50px;
-}
-
 .lessons-list {
   display: flex;
 }
@@ -294,6 +290,8 @@ section {
 }
 
 .lessons-title {
+  margin-bottom: 50px;
+
   text-align: center;
   font-weight: 700;
   font-size: 36px;
@@ -307,13 +305,19 @@ section {
 ==============================
 */
 
-/* .team {
-  padding-top: 94px;
-  padding-bottom: 94px;
-} */
+.team {
+  background-color: #f5f4fa;
+}
 
-.team-container {
+.team-title {
+  margin-bottom: 50px;
   text-align: center;
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
 }
 
 .team-list {
@@ -323,25 +327,20 @@ section {
 .team-item {
   width: 270;
   margin-right: 30px;
-  margin-bottom: 30px;
 }
 
 .team-item:last-child {
   margin-right: 0;
 }
 
-.team {
-  background-color: #f5f4fa;
+.team-text {
+padding-top: 30px;
+  padding-bottom: 30px;
+
 }
-.team-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
-  letter-spacing: 0.03em;
-  color: var(--secondary-text-color);
-}
+
 .team-name {
-  margin-top: 30px;
+  margin-bottom: 10px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -351,7 +350,6 @@ section {
 }
 
 .team-position {
-  margin-top: 10px;
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
@@ -364,6 +362,7 @@ section {
 */
 .footer {
   padding-top: 60px;
+  padding-bottom: 60px;
   background-color: #2f303a;
 }
 
@@ -379,7 +378,7 @@ section {
 }
 
 .footer-addres {
-  padding-top: 20px;
+  margin-top: 20px;
 
   font-style: normal;
   font-size: 14px;
@@ -391,9 +390,12 @@ section {
 .footer-mail,
 .footer-phone {
   display: block;
-  padding-top: 9px;
 
   color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-item:last-child {
+  margin-right: 0;
 }
 
 /*
@@ -437,12 +439,6 @@ section {
   padding-top: 50px;
 }
 
-.project-item {
-  border-right: 1px solid #eeeeee;
-  border-bottom: 1px solid #eeeeee;
-  border-left: 1px solid #eeeeee;
-}
-
 .projects-list {
   display: flex;
   flex-wrap: wrap;
@@ -468,11 +464,18 @@ section {
   margin-bottom: 0;
 }
 
-.project-name {
-  padding-top: 20px;
-  padding-left: 24px;
+.project-text {
   padding-right: 24px;
+  padding-bottom: 20px;
+  padding-left: 24px;
 
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+}
+
+.project-name {
+  margin-bottom: 4px;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -481,9 +484,6 @@ section {
 }
 
 .projects-position {
-  padding-top: 4px;
-  padding-left: 24px;
-  padding-bottom: 20px;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
