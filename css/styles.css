@@ -379,6 +379,7 @@ padding-top: 30px;
 
 .footer-addres {
   margin-top: 20px;
+  margin-bottom: 9px;
 
   font-style: normal;
   font-size: 14px;
@@ -394,9 +395,12 @@ padding-top: 30px;
   color: rgba(255, 255, 255, 0.6);
 }
 
-.footer-item:last-child {
-  margin-right: 0;
+.footer-item:not(:last-child) {
+  margin-bottom: 9px;
 }
+
+  
+
 
 /*
 ==============================
@@ -405,14 +409,22 @@ padding-top: 30px;
 */
 
 .filters {
-  /* padding-top: 94px; */
-  padding-bottom: 0;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
+
+/* .filters-container {
+  padding-top: 34px;
+} */
 
 .filters .filters-list {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.filters-list {
+  margin-bottom: 50px;
 }
 
 .filters .filters-item {
@@ -437,6 +449,7 @@ padding-top: 30px;
 
 .projects {
   padding-top: 50px;
+  
 }
 
 .projects-list {
@@ -465,6 +478,7 @@ padding-top: 30px;
 }
 
 .project-text {
+  padding-top: 20px;
   padding-right: 24px;
   padding-bottom: 20px;
   padding-left: 24px;
